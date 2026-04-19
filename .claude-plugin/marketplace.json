@@ -1,0 +1,27 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sjsyrek",
+  "description": "Personal marketplace of Claude Code plugins by Steven Syrek.",
+  "owner": {
+    "name": "Steven Syrek",
+    "email": "steven.syrek@gmail.com",
+    "url": "https://github.com/sjsyrek"
+  },
+  "plugins": [
+    {
+      "name": "design-council",
+      "description": "Convene 11 role-specialized peer agents to debate a technical decision in real time. Invoking Claude acts as CEO: convenes, routes peer-DMs, arbitrates deadlocks, writes a one-page decision log.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sjsyrek/design-council.git"
+      },
+      "homepage": "https://github.com/sjsyrek/design-council",
+      "author": {
+        "name": "Steven Syrek",
+        "email": "steven.syrek@gmail.com",
+        "url": "https://github.com/sjsyrek"
+      }
+    }
+  ]
+}
