@@ -22,6 +22,21 @@
         "email": "steven.syrek@gmail.com",
         "url": "https://github.com/sjsyrek"
       }
+    },
+    {
+      "name": "red-team",
+      "description": "Adversarial security and robustness review. Spawn independent specialist attacker agents to find every way to break an application — vulnerabilities, logic flaws, race conditions, dependency risks, infrastructure misconfigs. The Incident Commander cross-correlates findings to surface compound risks no single agent would catch.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sjsyrek/red-team.git"
+      },
+      "homepage": "https://github.com/sjsyrek/red-team",
+      "author": {
+        "name": "Steven Syrek",
+        "email": "steven.syrek@gmail.com",
+        "url": "https://github.com/sjsyrek"
+      }
     }
   ]
 }
