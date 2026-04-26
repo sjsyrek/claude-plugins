@@ -21,7 +21,8 @@ Then install any plugin from the list:
 
 | Plugin | Description | Source |
 |---|---|---|
-| [`design-council`](https://github.com/sjsyrek/design-council) | Convene 11 role-specialized peer agents to debate a technical decision in real time. Invoking Claude acts as CEO. | [sjsyrek/design-council](https://github.com/sjsyrek/design-council) |
+| [`design-council`](https://github.com/sjsyrek/design-council) | Convene parallel role-specialized peer agents to debate a cross-domain decision or audit a codebase. Invoking Claude acts as CEO. | [sjsyrek/design-council](https://github.com/sjsyrek/design-council) |
+| [`red-team`](https://github.com/sjsyrek/red-team) | Adversarial security review by independent specialist attacker agents. The Incident Commander cross-correlates findings to surface compound risks. | [sjsyrek/red-team](https://github.com/sjsyrek/red-team) |
 
 ## Adding a new plugin
 
