@@ -37,6 +37,21 @@
         "email": "steven.syrek@gmail.com",
         "url": "https://github.com/sjsyrek"
       }
+    },
+    {
+      "name": "compliance-panel",
+      "description": "Multi-agent EU digital compliance review covering GDPR, e-Privacy, NIS2, EU AI Act, and the Data Act. The Panel Chair spawns independent specialist assessor agents and cross-correlates findings into a prioritised gap report with concrete remediation steps.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sjsyrek/compliance-panel.git"
+      },
+      "homepage": "https://github.com/sjsyrek/compliance-panel",
+      "author": {
+        "name": "Steven Syrek",
+        "email": "steven.syrek@gmail.com",
+        "url": "https://github.com/sjsyrek"
+      }
     }
   ]
 }

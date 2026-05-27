@@ -23,6 +23,7 @@ Then install any plugin from the list:
 |---|---|---|
 | [`design-council`](https://github.com/sjsyrek/design-council) | Convene parallel role-specialized peer agents to debate a cross-domain decision or audit a codebase. Invoking Claude acts as CEO. | [sjsyrek/design-council](https://github.com/sjsyrek/design-council) |
 | [`red-team`](https://github.com/sjsyrek/red-team) | Adversarial security review by independent specialist attacker agents. The Incident Commander cross-correlates findings to surface compound risks. | [sjsyrek/red-team](https://github.com/sjsyrek/red-team) |
+| [`compliance-panel`](https://github.com/sjsyrek/compliance-panel) | EU regulatory compliance review (GDPR, e-Privacy, NIS2, AI Act, Data Act) by independent specialist assessor agents with cross-correlated compound-exposure reporting. | [sjsyrek/compliance-panel](https://github.com/sjsyrek/compliance-panel) |
 
 ## Adding a new plugin
 
