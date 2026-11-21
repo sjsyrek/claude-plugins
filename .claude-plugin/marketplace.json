@@ -52,6 +52,21 @@
         "email": "steven.syrek@gmail.com",
         "url": "https://github.com/sjsyrek"
       }
+    },
+    {
+      "name": "context-cleaning-crew",
+      "description": "Audit a Claude Code setup for context cost, duplicates, stale memory, conflicting instructions, removed tools, version drift and plaintext secrets, then clean it up with per-item approval. Quick, full (five reviewer seats) and read-only report modes. Needs python3.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sjsyrek/context-cleaning-crew.git"
+      },
+      "homepage": "https://github.com/sjsyrek/context-cleaning-crew",
+      "author": {
+        "name": "Steven Syrek",
+        "email": "steven.syrek@gmail.com",
+        "url": "https://github.com/sjsyrek"
+      }
     }
   ]
 }
