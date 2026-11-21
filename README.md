@@ -2,7 +2,7 @@
 
 Personal Claude Code marketplace by [Steven Syrek](https://github.com/sjsyrek).
 
-A marketplace is a Claude Code concept: a single repo that lists one or more plugins, so they can all be installed under one `marketplace add` step. Each plugin lives in its own source repo; this repo is just the pointer.
+A marketplace is a Claude Code concept: a single repo that lists one or more plugins, so they can all be installed under one `marketplace add` step. Each plugin lives in its own source repo. This repo holds the catalog and the shared [card standard](docs/card-standard.md) the plugins follow.
 
 ## Installation
 
@@ -29,9 +29,10 @@ To get new versions: `/plugin marketplace update sjsyrek`, then update the plugi
 ## Adding a new plugin
 
 1. Publish the plugin to its own GitHub repo (with `.claude-plugin/plugin.json` at root).
-2. Append an entry to `.claude-plugin/marketplace.json` with the repo URL as `source`, and a row to the table above.
-3. Check both with `claude plugin validate .` (in this repo and in the plugin's).
-4. Commit, push, and run `/plugin marketplace update sjsyrek` from any session that already has the marketplace added.
+2. Follow the [card standard](docs/card-standard.md) for anything the plugin shows the user (plan cards, status lines, previews): copy its example card into your `SKILL.md`, and its Grader section into your plan-card evals.
+3. Append an entry to `.claude-plugin/marketplace.json` with the repo URL as `source`, and a row to the table above.
+4. Check both with `claude plugin validate .` (in this repo and in the plugin's).
+5. Commit, push, and run `/plugin marketplace update sjsyrek` from any session that already has the marketplace added.
 
 ## License
 
