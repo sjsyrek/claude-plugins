@@ -9,7 +9,7 @@ A plugin can't read this file at runtime, because installed plugins don't ship t
 ## Rules
 
 1. **No code fence around a card.** Claude Code renders unfenced markdown: tables get borders, and narrow terminals and screen readers get a stacked `Header: value` form. A fence shows a card as one tinted block of raw text.
-2. **Title: one bold line**, `**<Display Name> plan** — <mode or scope>`. The display name is the README's H1, in Title Case, and a path scope goes in backticks. A bold line rather than a heading keeps cards from competing with the reply's own headings.
+2. **Title: one bold line**, `**<Display Name> plan** — <mode or scope>`, always with an em dash (`—`), never a colon or a hyphen, so every card reads the same. The display name is the README's H1, in Title Case, and a path scope goes in backticks. A bold line rather than a heading keeps cards from competing with the reply's own headings.
 3. **Single values are a bulleted list with bold labels**, `- **Budget:** ~300k tokens, ~12 min`. Consecutive bare lines would run together as one paragraph.
 4. **One label set:** Mode, Scope, Roster, Budget, Output, plus Opening question where a plugin has one. Each field means one thing in every plugin.
 5. **A table is only for parallel records**, such as seats or findings: at most 4 columns, short cells, and a non-empty header in every column. Single values in a table would read as noise, and an empty header prints a stray label in the stacked layout.
