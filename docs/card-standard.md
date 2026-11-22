@@ -32,7 +32,7 @@ Copy this section into each plugin's plan-card evals: the rules text into an LLM
 
 **LLM grader (`card-format.md`), layout only (the content graders already check what the card says):**
 
-> The final message's plan card follows the card standard v1. Pass only if ALL hold: (1) the card is not inside a code fence; (2) it starts with a bold title line naming the plugin, then an em dash and the mode or scope; (3) single values are a bulleted list with bold labels; (4) seats or findings, if listed, are a markdown table with a header row, and findings keep their numbers; (5) it contains no hand-drawn box characters and no `=====` underline; (6) when the card asks for a reply, its last line starts with `Reply:` and lists the plugin's verbs, each in backticks, separated by `|`.
+> The final message's plan card follows the card standard v1. Pass only if ALL hold: (1) the card is not inside a code fence; (2) the card begins with a bold title line naming the plugin, then an em dash and the mode or scope (a short lead-in sentence before the card is fine; judge the card itself); (3) single values are a bulleted list with bold labels; (4) seats or findings, if listed, are a markdown table with a header row, and findings keep their numbers; (5) it contains no hand-drawn box characters and no `=====` underline; (6) when the card asks for a reply, its last line starts with `Reply:` and lists the plugin's verbs, each in backticks, separated by `|`.
 
 **Regex graders:**
 
