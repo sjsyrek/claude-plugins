@@ -13,3 +13,4 @@ All notable changes to this marketplace are documented here. The format follows 
 ### Changed
 
 - **README:** the repo also holds the shared card standard, not only the catalog.
+- **Card standard, rule 4:** a plugin may add its own labels, as long as it doesn't reuse a standard label with a different meaning. This is a clarification; the stamp stays `standard: v1`.
