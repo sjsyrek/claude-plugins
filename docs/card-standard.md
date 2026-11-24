@@ -143,6 +143,30 @@ Reply: `go` | `go except 3` | `keep 2` | `explain 1` | `abort`
 
 In report mode the title is `**Context Cleaning Crew plan** — report mode: proposed, nothing applied`, the card has no reply line, and the `compare.py` summary stays the last line of the reply.
 
+### accessibility-board
+
+**Accessibility Board plan** — full · `http://localhost:5173/checkout`
+
+- **Mode:** full (code plus a guarded scan of one page)
+- **Scope:** repo root
+- **URL:** `http://localhost:5173/checkout`
+- **Activation:** on (openers only)
+- **Network:** GET only, but same-origin GET requests can still change state on a badly built server; prefer a staging environment
+- **Budget:** ~1M tokens (mostly cached), ~5 min
+- **Output:** `~/.claude/accessibility-board/2026-11-24-checkout/report.md`
+
+| Seat | Model | Effort |
+|---|---|---|
+| keyboard-and-focus | Opus | high |
+| screen-reader | Opus | high |
+| visual | Sonnet | medium |
+| motion-and-media | Sonnet | medium |
+| cognitive-and-forms | Sonnet | medium |
+
+Reply: `go` | `activation off` | `drop <seat>` | `narrow scope to <path>` | `abort`
+
+URL, Activation and Network are plugin-specific labels (rule 4).
+
 ### Preview (any plugin)
 
 **Draft report** — 640 words, not saved yet

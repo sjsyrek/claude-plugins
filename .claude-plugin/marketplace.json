@@ -67,6 +67,21 @@
         "email": "steven.syrek@gmail.com",
         "url": "https://github.com/sjsyrek"
       }
+    },
+    {
+      "name": "accessibility-board",
+      "description": "Review a product's UI against all 55 WCAG 2.2 Level A and AA criteria. A guarded single-page scan (axe-core, keyboard walk, zoom and text spacing) and five independent read-only auditor seats feed one criterion-mapped report with compound findings. Full mode needs Node 22.12+.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sjsyrek/accessibility-board.git"
+      },
+      "homepage": "https://github.com/sjsyrek/accessibility-board",
+      "author": {
+        "name": "Steven Syrek",
+        "email": "steven.syrek@gmail.com",
+        "url": "https://github.com/sjsyrek"
+      }
     }
   ]
 }

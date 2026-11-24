@@ -23,8 +23,9 @@ To get new versions: `/plugin marketplace update sjsyrek`, then update the plugi
 | [`red-team`](https://github.com/sjsyrek/red-team) | Adversarial security review by independent specialist attacker agents. The Incident Commander cross-correlates findings to surface compound risks. | [sjsyrek/red-team](https://github.com/sjsyrek/red-team) |
 | [`compliance-panel`](https://github.com/sjsyrek/compliance-panel) | EU regulatory compliance review (GDPR, e-Privacy, NIS2, AI Act, Data Act) by independent specialist assessor agents with cross-correlated compound-exposure reporting. | [sjsyrek/compliance-panel](https://github.com/sjsyrek/compliance-panel) |
 | [`context-cleaning-crew`](https://github.com/sjsyrek/context-cleaning-crew) | Audit your Claude Code setup (context cost, duplicates, stale memory, conflicting instructions, removed tools, version drift, plaintext secrets) and clean it up with per-item approval; a read-only report mode can run on a schedule. Needs `python3`. | [sjsyrek/context-cleaning-crew](https://github.com/sjsyrek/context-cleaning-crew) |
+| [`accessibility-board`](https://github.com/sjsyrek/accessibility-board) | WCAG 2.2 A/AA review of a product's UI: a guarded single-page scan and five independent read-only auditor seats, cross-correlated into one criterion-mapped report. Automated review, not a conformance claim. | [sjsyrek/accessibility-board](https://github.com/sjsyrek/accessibility-board) |
 
-**Requirements:** design-council needs agent teams enabled (`CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`, Claude Code 2.1.178+); context-cleaning-crew needs `python3` on `PATH`. red-team and compliance-panel need nothing extra.
+**Requirements:** design-council needs agent teams enabled (`CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`, Claude Code 2.1.178+); context-cleaning-crew needs `python3` on `PATH`; accessibility-board's full mode needs Node.js 22.12+ on `PATH` and downloads Chromium headless shell (about 200 MB) after you approve it. red-team and compliance-panel need nothing extra.
 
 ## Adding a new plugin
 
